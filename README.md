@@ -24,7 +24,8 @@ post-only/postonly for the postonly account
 ```
 wget https://github.com/glpi-project/glpi-agent/releases/download/1.10/glpi-agent-1.10-linux-installer.pl
 chmod a+x glpi-agent-1.10-linux-installer.pl
-# when setting up, use the following url (reply empty for other questions): http://localhost/front/inventory.php
+# when setting up, use the following url (reply empty for other questions):
+# http://localhost/front/inventory.php
 sudo ./glpi-agent-1.10-linux-installer.pl
 sudo glpi-agent --debug
 ```
